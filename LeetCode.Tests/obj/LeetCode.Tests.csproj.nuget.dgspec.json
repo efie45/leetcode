@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ethanfie/RiderProjects/LeetCode/LeetCode.Tests/LeetCode.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/ethanfie/RiderProjects/LeetCode/LeetCode.Tests/LeetCode.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ethanfie/RiderProjects/LeetCode/LeetCode.Tests/LeetCode.Tests.csproj",
+        "projectName": "LeetCode.Tests",
+        "projectPath": "/Users/ethanfie/RiderProjects/LeetCode/LeetCode.Tests/LeetCode.Tests.csproj",
+        "packagesPath": "/Users/ethanfie/.nuget/packages/",
+        "outputPath": "/Users/ethanfie/RiderProjects/LeetCode/LeetCode.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ethanfie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ivanti.pkgs.visualstudio.com/_packaging/Uno/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ethanfie/RiderProjects/LeetCode/LeetCode/LeetCode.csproj": {
+                "projectPath": "/Users/ethanfie/RiderProjects/LeetCode/LeetCode/LeetCode.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/ethanfie/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ethanfie/RiderProjects/LeetCode/LeetCode/LeetCode.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ethanfie/RiderProjects/LeetCode/LeetCode/LeetCode.csproj",
+        "projectName": "LeetCode",
+        "projectPath": "/Users/ethanfie/RiderProjects/LeetCode/LeetCode/LeetCode.csproj",
+        "packagesPath": "/Users/ethanfie/.nuget/packages/",
+        "outputPath": "/Users/ethanfie/RiderProjects/LeetCode/LeetCode/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ethanfie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ivanti.pkgs.visualstudio.com/_packaging/Uno/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/ethanfie/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
